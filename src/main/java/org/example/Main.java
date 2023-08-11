@@ -8,5 +8,7 @@ public class Main {
 
         p.getName();
         p.getId();
+
+        Person p1 = Person.builder().id(1).name("abc").build();
     }
 }
